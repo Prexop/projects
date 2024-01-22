@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <div>
+        <h1>No Way Home</h1>
+        <form action="form.php">
+            <input type="text" placeholder="Enter Your Name"><br><br>
+            <label for="genderidm">
+                <input type="radio" value="Male" name="gender" id="genderidm">Male
+            </label>
+            <label for="genderidf">
+                <input type="radio" value="female" name="gender" id="genderidf">Female
+            </label>
+            <label for="genderido">
+                <input type="radio" value="Other" name="gender" id="genderid">Other
+            </label>
+            <br><br><input type="checkbox" name="Wanna Go Home" id="gohome" class="red" name="Home">
+            <label for="gohome">Home</label>
+           <br> <br><textarea name="explain" id="explain" cols="30" rows="10" placeholder="Why You Wanna GO Home"></textarea>
+          <br> <select name="car" id="car">Select your way Home
+            <option value="Not-going">Select your way Home</option>
+            <option value="Teleport">Teleport</option>
+            <option value="Fly">Fly</option>
+            <option value="Run">Run</option>
+
+           </select>
+        </form>
+    </div>
+</body>
+
+</html>

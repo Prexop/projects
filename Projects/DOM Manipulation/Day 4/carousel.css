@@ -1,0 +1,69 @@
+*
+{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.main
+{
+    width: 100%;
+    height: 700px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner
+{
+    width: 70%;
+    height: 600px;
+    background-color: gray;
+    overflow: hidden;
+    position: relative;
+}
+.buttons 
+{
+ width: 100%;
+ height: 70px;
+ /* background-color: black; */
+ position: absolute;
+ top: 265px;
+ display: flex;
+ justify-content: space-between;
+ padding: 0px 3%;
+}
+.btn
+{
+    width: 70px;
+    height:70px;
+    background-color: rgba(0, 0, 0, .5);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 24px;
+    color: white;
+}
+.carousel
+{
+    height: 600px;
+    width: 600%;
+    background-color: green;
+    display: flex;
+    margin-left: -100%;
+}
+.slide
+{
+    width: 20%;
+    height: 100%;
+    background-color: yellow;
+    font-size: 100px;
+    overflow: hidden;
+}
+.slide-img
+{
+    width: 100%;
+    margin-top: -200px;
+
+}

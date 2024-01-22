@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.banner
+{
+    width: 100%;
+    height: 90vh;
+    background-color: gray;
+    background-image: url('./images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+.header
+{
+    width: 100%;
+    height: 40px;
+    /* background-color: red; */
+    padding: 0px 15%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.logo
+{
+    width: 10%;
+    height: 40px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-text
+{
+    width: 80%;
+    height: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'poppins';
+    font-size: 15px;
+}
+.nav
+{
+    width: 45%;
+    height: 40px;
+    /* background-color: blue; */
+}
+.nav-links
+{
+    width: 100%;
+    height: 40px;
+    /* background-color: yellow; */
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'poppins';
+}
+.nav-link
+{
+    padding: 5px 10px;
+    transition: .3s;
+}
+.nav-link:hover
+{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    
+}
+.banner-details
+{
+    width: 100%;
+    /* background-color: white; */
+    padding: 15px 15%;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+.badge
+{
+    width: max-content;
+    padding: 1px 15px;
+    background-color: rgba(255, 255, 255, .888);
+    font-family: 'poppins';
+    font-size: 20px;
+    border-radius: 10px;
+}
+.banner-heading
+{
+    font-size: 55px;
+    font-family: 'poppins';
+    color: white;
+}
+.btn
+{
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+
+}
+.booking
+{
+    width: 100%;
+    padding: 10px 5px;
+    background-color: rgba(255, 255, 255, .6);
+    display: flex;
+    column-gap: 15px;
+}
+.inp
+{
+    width: 20%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'poppins';
+    row-gap: 5px;
+    justify-content: flex-end;
+}
+
+input
+{
+    height: 40px;
+    text-indent: 10px;
+    font-size: 16px;
+}
+.book-btn
+{
+    padding: 0px 30px;
+}
+ /* about css */
+.about
+ {
+    width: 100%;
+    padding: 50px 15%;
+    background-color: white;
+    font-family: 'poppins';
+    font-size: 20px;
+    font-weight: 200;
+    word-spacing: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+ }
+.highlight
+{
+    font-weight: bold;
+    font-size: 30px;
+} 
+.icon
+{
+    font-size: 40px;
+    color: #06def5;
+}
+
+/* rooms css */
+.rooms
+{
+    width: 100%;
+    padding: 50px 15%;
+    background-color: #f9f9f9;
+    font-family: 'poppins';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rooms-area
+{
+    width: 100%;
+    padding: 20px 0px;
+    /* background-color: red; */
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5%;
+    row-gap: 50px;
+}
+.section-title
+{
+    font-size: 30px;
+}
+.room
+{
+    width: 30%;
+    background-color: white;
+}
+.room-img
+{
+    height: 170px;
+    width: 100%;
+    /* background-color: yellow; */
+    overflow: hidden;
+}
+.room-image
+{
+    width: 100%;
+    cursor: pointer;
+    transition: .3s;
+}
+.room-image:hover
+{
+    transform: scale(1.2);
+}
+.room-details
+{
+    /* background-color: green; */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 10px;
+}
+.subscribe
+{
+    width: 100%;
+    padding: 50px 15%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+.sub-text
+{
+    width: 30%;
+    padding: 20px;
+    /* background-color: skyblue; */
+    font-family: 'poppins';
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.logo2
+{
+    width: 50%;
+    /* background-color: yellow; */
+}
+.sub-desc
+{
+    font-size: 15px;
+}
+.sub-area
+{
+    width: 45%;
+    padding: 20px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins';
+    row-gap: 20px;
+}
+.sub-form
+{
+    display: flex;
+}
+.sub-inp
+{
+    width: 80%;
+    height: 55px;
+}
+
+/* food section css */
+.food
+{
+    width: 100%;
+    height: 80vh;
+    padding: 50px 10%;
+    background-color: #e2e2e2;
+    background-image: url('/images/resturant.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.food-detail
+{
+    width: 62%;
+    padding: 40px;
+    /* background-color: red; */
+    font-family: 'poppins';
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 15px;
+}
+.section-header
+{
+    font-size: 40px;
+}
+
+/* premium room css */
+.premium
+{
+    width: 100%;
+    padding: 50px 15%;
+    font-family: 'poppins';
+    background-color: #e2e2e2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.prooms-area
+{
+    width: 100%;
+    height: 800px;
+    /* background-color: green; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.proom-img
+{
+    width: 30%;
+    height: 800px;
+    /* background-color: yellow; */
+    overflow: hidden;
+}
+.proom-boxes
+{
+    width: 65%;
+    height: 800px;
+    /* background-color: skyblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.proom-image
+{
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+}
+.proom-box
+{
+    width: 100%;
+    padding: 20px;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 15px;
+}
+
+/* gallery css */
+.gallery
+{
+    width: 100%;
+    padding: 50px 15%;
+    background-color: black;
+}
+.gall-img
+{
+    width: 33%;
+    cursor: pointer;
+    transition: .3s;
+    opacity: .5 !important;
+}
+.gall-img:hover
+{
+    opacity: 1 !important;
+}
+
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px 30px 20px 30px;
+    color: #2f2f2f;
+    background-color: #fff;
+    border-top: 1px solid #e5e5e5;
+  }
+  
+  .footer > * {
+    flex:  1 100%;
+  }
+  
+  .footer__addr {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+  }
+  
+  .footer__logo {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    text-transform: lowercase;
+    font-size: 1.5rem;
+  }
+  
+  .footer__addr h2 {
+    margin-top: 1.3em;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
+  .nav__title {
+    font-weight: 400;
+    font-size: 15px;
+  }
+  
+  .footer address {
+    font-style: normal;
+    color: #999;
+  }
+  
+  .footer__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    max-width: max-content;
+    background-color: rgb(33, 33, 33, 0.07);
+    border-radius: 100px;
+    color: #2f2f2f;
+    line-height: 0;
+    margin: 0.6em 0;
+    font-size: 1rem;
+    padding: 0 1.3em;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .footer li {
+    line-height: 2em;
+  }
+  
+  .footer a {
+    text-decoration: none;
+  }
+  
+  .footer__nav {
+    display: flex;
+      flex-flow: row wrap;
+  }
+  
+  .footer__nav > * {
+    flex: 1 50%;
+    margin-right: 1.25em;
+  }
+  
+  .nav__ul a {
+    color: #999;
+  }
+  
+  .nav__ul--extra {
+    column-count: 2;
+    column-gap: 1.25em;
+  }
+  
+  .legal {
+    display: flex;
+    flex-wrap: wrap;
+    color: #999;
+  }
+    
+  .legal__links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .heart {
+    color: #2f2f2f;
+  }
+  
+  @media screen and (min-width: 24.375em) {
+    .legal .legal__links {
+      margin-left: auto;
+    }
+  }
+  
+  @media screen and (min-width: 40.375em) {
+    .footer__nav > * {
+      flex: 1;
+    }
+    
+    .nav__item--extra {
+      flex-grow: 2;
+    }
+    
+    .footer__addr {
+      flex: 1 0px;
+    }
+    
+    .footer__nav {
+      flex: 2 0px;
+    }
+  }

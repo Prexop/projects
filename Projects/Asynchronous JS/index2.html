@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function getUsersFromFacebook(sucesscb,failcb)
+        {
+            // call api
+            // prepare data
+
+            let users = [{name:"Pranaya"},{name:"Sujan"}] 
+
+            if(users>0)
+            {
+                sucesscb(users)
+            }
+            else
+            {
+                failcb("Some Problem")
+            }
+        }
+
+        function getPostFromUser(user,sb,fb)
+        {
+            // call api
+            // get data
+            let posts = [];
+
+            if(posts>0)
+            {
+                sb(posts);
+            }
+            else
+            {
+                fb("Failure Getting Data");
+            }
+        }
+
+        setTimeout(function(){
+            getUsersFromFacebook(function(users){
+                setTimeout(function(){
+                    getPostFromUser(users[0],function(posts){},function(err){
+                        
+                    })
+                },0)
+
+            },function(err){
+
+            })
+        },0)
+    </script>
+</body>
+</html>
